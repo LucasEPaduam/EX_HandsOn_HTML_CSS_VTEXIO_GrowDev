@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Privacy Policy - LearnCSS</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      :root {
+        --primary-blue: #1d4ed8;
+        --dark-charcoal: #111827;
+        --text-gray: #4b5563;
+      }
+
+      body {
+        font-family: "Inter", sans-serif;
+        line-height: 1.7;
+        color: var(--text-gray);
+        background-color: #ffffff;
+        margin: 0;
+        padding: 0;
+        /* Anti-aliasing para leitura mais limpa */
+        -webkit-font-smoothing: antialiased;
+      }
+
+      .content-container {
+        /* Margens dinâmicas: 10% nas laterais conforme seu padrão */
+        width: 80%;
+        max-width: 800px;
+        margin: 60px auto;
+      }
+
+      h1 {
+        color: var(--dark-charcoal);
+        font-size: 2.2rem; /* Tamanho maior para destaque */
+        margin-bottom: 1.5rem;
+      }
+
+      p,
+      li {
+        font-size: 1.125rem; /* ~18px para melhor legibilidade no mobile */
+        margin-bottom: 1.2rem;
+      }
+
+      .back-link {
+        display: inline-block;
+        margin-top: 40px;
+        padding: 12px 24px;
+        background-color: var(--primary-blue);
+        color: white;
+        text-decoration: none;
+        border-radius: 8px;
+        font-weight: 600;
+        transition: opacity 0.2s;
+      }
+
+      .back-link:hover {
+        opacity: 0.9;
+      }
+
+      /* Ajustes específicos para telas bem pequenas */
+      @media (max-width: 480px) {
+        .content-container {
+          width: 90%; /* Aumenta a área de leitura no celular */
+          margin: 40px auto;
+        }
+        h1 {
+          font-size: 1.8rem;
+        }
+        p,
+        li {
+          font-size: 1rem; /* 16px no mobile para não ficar gigante */
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="content-container">
+      <h1>Privacy Policy</h1>
+
+      <p>
+        Your privacy is important to us. This policy outlines how we handle your
+        data to ensure a safe learning environment.
+      </p>
+
+      <ul>
+        <li>
+          <strong>Data Collection:</strong> We only collect information
+          necessary to improve your experience.
+        </li>
+        <li>
+          <strong>Transparency:</strong> We never share your personal details
+          with third parties.
+        </li>
+        <li>
+          <strong>Security:</strong> All information is encrypted and stored
+          following industry standards.
+        </li>
+      </ul>
+
+      <a href="index.html#footer" class="back-link">Back to Home</a>
+    </div>
+  </body>
+</html>
