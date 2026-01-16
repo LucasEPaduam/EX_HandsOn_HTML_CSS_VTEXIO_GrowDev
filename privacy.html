@@ -22,12 +22,10 @@
         background-color: #ffffff;
         margin: 0;
         padding: 0;
-        /* Anti-aliasing para leitura mais limpa */
         -webkit-font-smoothing: antialiased;
       }
 
       .content-container {
-        /* Margens dinâmicas: 10% nas laterais conforme seu padrão */
         width: 80%;
         max-width: 800px;
         margin: 60px auto;
@@ -35,13 +33,13 @@
 
       h1 {
         color: var(--dark-charcoal);
-        font-size: 2.2rem; /* Tamanho maior para destaque */
+        font-size: 2.2rem;
         margin-bottom: 1.5rem;
       }
 
       p,
       li {
-        font-size: 1.125rem; /* ~18px para melhor legibilidade no mobile */
+        font-size: 1.125rem;
         margin-bottom: 1.2rem;
       }
 
@@ -61,10 +59,9 @@
         opacity: 0.9;
       }
 
-      /* Ajustes específicos para telas bem pequenas */
       @media (max-width: 480px) {
         .content-container {
-          width: 90%; /* Aumenta a área de leitura no celular */
+          width: 90%;
           margin: 40px auto;
         }
         h1 {
@@ -72,7 +69,7 @@
         }
         p,
         li {
-          font-size: 1rem; /* 16px no mobile para não ficar gigante */
+          font-size: 1rem;
         }
       }
     </style>
