@@ -21,4 +21,4 @@ Consolidar os conceitos vistos em aula por meio da prática, exercitando:
 - HTML5
 - CSS3 (Flexbox, Grid, Media Queries)
 
-Este é um exercício do curso de desenvolvimento VTEX IO da GrowDev em parveria com a VesteTech.
+Este é um exercício do curso de desenvolvimento VTEX IO da GrowDev em parceria com a VesteTech.
